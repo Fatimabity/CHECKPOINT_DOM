@@ -20,10 +20,11 @@
                     alt="#">
                 <div class="like">
                     <div class="prix">
-                        <h4 class="price">prix: 10000fr </h4>
+                        <h4 >prix: <span class="price">10000</span> fr </h4>
                     </div>
-                    <div class="coeur" onclick="toggleLike()">
-                        <button class="btn1"><i class="far fa-heart"></i></button>
+                    <div class="coeur" onclick="toggleLike(1)">
+                        <button class="btn1" id="likeBtn1"><i class="far fa-heart"></i></button>
+                        
                     </div>
                 </div>
                 <div class="Quantités">
@@ -33,7 +34,7 @@
                     <button class="plus">+</button>
                 </div>
                 <div class="div">
-                    <h4 class="prixu">sous-prix: <span>0</span></h4>
+                    <h4 class="prixu">sous-prix: <span class="totPrice">0</span></h4>
                     <button class="supprimer"><i class="fa fa-trash-o"></i></button>
                 </div>
             </div>
@@ -47,8 +48,8 @@
                     <div class="prix">
                         <h4 class="price">prix: 10000fr </h4>
                     </div>
-                    <div class="coeur">
-                        <button class="btn2"><i class="far fa-heart"></i></button>
+                    <div class="coeur" onclick="toggleLike(2)">
+                        <button class="btn2" id="likeBtn2"><i class="far fa-heart"></i></button>
                     </div>
                 </div>
                 <div class="Quantités">
@@ -58,7 +59,7 @@
                     <button class="plus PLUS">+</button>
                 </div>
                 <div class="div">
-                    <h4 class="prixu">sous-prix: <span>0</span></h4>
+                    <h4 class="prixu">sous-prix: <span class="totPrice1">0</span></h4>
                     <button class="supprimer"><i class="fa fa-trash-o"></i></button>
                 </div>
             </div>
@@ -72,8 +73,8 @@
                     <div class="prix">
                         <h4 class="price">prix: 10000fr </h4>
                     </div>
-                    <div class="coeur">
-                        <button class="btn3"><i class="far fa-heart"></i></button>
+                    <div class="coeur" onclick="toggleLike(3)">
+                        <button class="btn3" id="likeBtn3"><i class="far fa-heart"></i></button>
                     </div>
                 </div>
                 <div class="Quantités">
@@ -84,14 +85,15 @@
                 </div>
                 <div>
                     <div class="div">
-                        <h4 class="prixu">sous-prix: <span>0</span></h4>
-                        <button class="supprimer"><i class="fa fa-trash-o"></i></i></button>
+                        <h4 class="prixu">sous-prix: <span class="totPrice2">0</span></h4>
+                        <button class="supprimer"><i class="fa fa-trash-o"></i></i>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="prixt">
-            <h3>prix total: <span>0</span></h3>
+            <h3>prix total: <span class="total">0</span></h3>
         </div>
         </div>
     </div>
