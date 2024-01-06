@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHECKPOINT DOM</title>
+    <link rel="stylesheet" href="checkpoint.css">
+    <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+
+            <!-- product 1 -->
+            <div class="flexbox">
+                <img class="img"
+                    src="https://img.ltwebstatic.com/images3_spmp/2023/05/12/168390443136d2e8caf3e95ddb4cb33edec6244751_thumbnail_720x.jpg"
+                    alt="#">
+                <div class="like">
+                    <div class="prix">
+                        <h4 class="price">prix: 10000fr </h4>
+                    </div>
+                    <div class="coeur" onclick="toggleLike()">
+                        <button class="btn1"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="Quantités">
+                    <h4 class="qte">Quantités:</h4>
+                    <button class="moins">-</button>
+                    <span class="zéro">0</span>
+                    <button class="plus">+</button>
+                </div>
+                <div class="div">
+                    <h4 class="prixu">sous-prix: <span>0</span></h4>
+                    <button class="supprimer"><i class="fa fa-trash-o"></i></button>
+                </div>
+            </div>
+
+            <!-- product 2 -->
+            <div class="flexbox">
+                <img class="img"
+                    src="https://img.ltwebstatic.com/images3_spmp/2023/06/07/1686127587a0a2fa1d7ac9e3864c9553912f661818_thumbnail_405x552.jpg"
+                    alt="#">
+                <div class="like">
+                    <div class="prix">
+                        <h4 class="price">prix: 10000fr </h4>
+                    </div>
+                    <div class="coeur">
+                        <button class="btn2"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="Quantités">
+                    <h4 class="qte QTE">Quantités:</h4>
+                    <button class="moins MOINS">-</button>
+                    <span class="zéro ZERO">0</span>
+                    <button class="plus PLUS">+</button>
+                </div>
+                <div class="div">
+                    <h4 class="prixu">sous-prix: <span>0</span></h4>
+                    <button class="supprimer"><i class="fa fa-trash-o"></i></button>
+                </div>
+            </div>
+
+            <!-- product 3 -->
+            <div class="flexbox">
+                <img class="img"
+                    src="https://thumbor-5.modalova.fr/unsafe/0x350/aHR0cHM6Ly9pbWFnZXMyLnByb2R1Y3RzZXJ2ZS5jb20vP3c9MTAwMCZoPTEwMDAmYmc9d2hpdGUmdHJpbT01JnQ9bGV0dGVyYm94JnVybD1zc2wlM0FpbWcubHR3ZWJzdGF0aWMuY29tJTJGaW1hZ2VzM19waSUyRjIwMjIlMkYwMiUyRjE4JTJGMTY0NTE1Mzc1NWQzZmM2ZTJkZDEzOTQ2ODVmZjUzNzc0ZTE2ZTJiOGE4LmpwZyZmZWVkSWQ9MzUxMDMmaz0xMDYwYjQxOTc1MjRlOGRlNTQyNzZjNjQ1ZjA5OTYwM2NmN2M5MWVh_/sac-main-minimaliste-paille-33629628999-Modalova.jpg"
+                    alt="#">
+                <div class="like">
+                    <div class="prix">
+                        <h4 class="price">prix: 10000fr </h4>
+                    </div>
+                    <div class="coeur">
+                        <button class="btn3"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="Quantités">
+                    <h4 class="qte">Quantités:</h4>
+                    <button class="moins sub">-</button>
+                    <span class="zéro zero">0</span>
+                    <button class="plus add">+</button>
+                </div>
+                <div>
+                    <div class="div">
+                        <h4 class="prixu">sous-prix: <span>0</span></h4>
+                        <button class="supprimer"><i class="fa fa-trash-o"></i></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="prixt">
+            <h3>prix total: <span>0</span></h3>
+        </div>
+        </div>
+    </div>
+    <script src="checkpoint.js"></script>
+</body>
+
+</html>
