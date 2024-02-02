@@ -1,80 +1,109 @@
-*{
+* {
     background-color: rgb(197, 159, 101);
+   
 }
-.container{
+
+h2{
+    margin-left: 100px; 
+    text-align: center;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.container {
     background-color: rgb(241, 199, 139);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 1000px;
     height: 500px;
-    margin:50px;
+    margin-left: 50px;
+    margin-right: 50px;
     border: solid 2px;
-    border-color:  rgb(145, 118, 77);
-    border-radius: 5px; 
+    border-color: rgb(145, 118, 77);
+    border-radius: 5px;
 }
-.img{
+
+.flexbox {
+    background-color: rgb(197, 159, 101);
+    width: 250px;
+    height: 420px;
+    margin: 30px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: rgb(145, 118, 77);
+}
+
+.img {
     width: 250px;
     height: 250px;
     border-radius: 10px;
 }
-.flexbox{
-   background-color:  rgb(197, 159, 101);
-   width: 250px;
-   height: 400px;
-   margin: 30px;
-   border-radius: 10px;
-   border: solid 1px;
-   border-color:  rgb(145, 118, 77); 
+
+.like {
+    display: flex;
 }
-.like{
-   display: flex;
-}
-.coeur{
-    margin-left: 120px;
+
+.coeur {
+    margin-left: 130px;
     margin-top: 17px;
 }
-.btn1{
-    color: black;
+.fas{
+    color: #f50057;
+    transition: .4s;
 }
-.Quantités{
+.Quantités {
     display: flex;
     margin-top: -20px;
 }
-.moins{
-    width: 20px;
+.qté{
+    width: 60px;
     height: 20px;
-    margin-top: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: black;
+    background: rgb(197, 159, 101);
+    margin-top: 19px;
     margin-left: 5px;
 }
-.plus{
-    width: 20px;
-    height: 20px;
-    margin-top: 19px;
-}
 .zéro{
-    margin-top: 18px;
-    font-size: 20px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
 }
-.div{
-    display: flex;
+.div {
     margin-top: -20px;
 }
-.supprimer{
-    height: 20px;
-    margin-top: 20px;
-    margin-left: 135px;
+
+.supprimer {
+    margin-left: 218px;
+    margin-top: -5px;
 }
-.main{
+
+.main {
     display: flex;
 }
-.prixt{
+
+.prixt {
     margin-top: 80px;
     margin-left: -40px;
 }
-button{
-   background-color: transparent;
-   border: none;
-   font-size: 20px;
-}
 
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+.prixt button{
+    width: 200px;
+    height: 50px;
+    border: solid 1px;
+    font-size: large;
+    font-weight: 900;
+    color: black;
+    background-color: rgb(161, 126, 74);
+}
