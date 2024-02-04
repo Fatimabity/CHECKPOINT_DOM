@@ -33,6 +33,9 @@ h2{
     border: solid 1px;
     border-color: rgb(145, 118, 77);
 }
+.flexbox:hover{
+    box-shadow: 0 0 15px rgb(109, 85, 50);
+}
 
 .img {
     width: 250px;
@@ -45,7 +48,7 @@ h2{
 }
 
 .coeur {
-    margin-left: 130px;
+    margin-left: 145px;
     margin-top: 17px;
 }
 .fas{
@@ -101,9 +104,13 @@ button {
 .prixt button{
     width: 200px;
     height: 50px;
-    border: solid 1px;
+    border: solid 2px;
     font-size: large;
     font-weight: 900;
     color: black;
-    background-color: rgb(161, 126, 74);
+    background-color: rgb(163, 134, 89);
+}
+.prixt button:hover{
+    background-color: rgb(141, 110, 64);
+    box-shadow: 0 0 10px rgb(77, 60, 34);
 }
